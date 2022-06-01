@@ -1,0 +1,2282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.full_page{
+    width:100%;
+    height:100vh;
+}
+.page_1{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(rgba(2,2,2,0.5),rgba(0,0,0,0.8)),url(hero-bg.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.nav_bar{
+    margin:15px;
+    padding:0 15px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+.nav_bar::hover{
+    background-position:fixed;
+    background-color:black
+}
+.nav_bar ul li{
+    list-style:none;
+    display:inline-block;
+    padding: 15px;
+    position:relative;
+}
+.nav_bar ul li a{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+}
+.nav_bar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: red;
+    position: absolute;
+    left: 10%;
+    bottom: -1px;
+    transition: 0.5s;
+}
+.nav_bar ul li:hover:after{
+    width: 80%;
+ }
+.logo{
+    padding:2px 40px;
+    font-size:40px;
+    color:white;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:white;
+}
+.content h1 {
+    font-size: 50px;
+    margin-top: 80px;
+
+}
+.welcome{
+    margin-top: 80px;
+    border-radius: 80px;
+}
+.content p {
+    margin: 20px auto;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.content button a{
+    text-decoration: none;
+}
+button{
+width: 200px;
+padding: 15px 0;
+top: 50px;
+text-align: center;
+margin: 20px 10px;
+border-radius: 25px;
+font-weight: bold;
+border:2px solid white;
+background: transparent;
+color:white;
+cursor: pointer;
+overflow: hidden;
+position:relative;
+}
+.btn2 a{
+    text-decoration:none;
+    color:white;
+}
+.btn1{
+    width: 30%;
+    color: white;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(255, 255, 255, 0.514),rgba(0,0,0,0.8)),white;
+}
+.wel{
+    color: white;
+}
+.btn1{
+    color: white;
+    border-color: gray;
+}
+.btn2{
+border-color: white;
+border-radius: 80px;
+padding: 1%;
+}
+.btn2:hover {
+background-color:crimson;
+border-color: crimson;
+}
+ @media (min-width:567px){
+    .page_1{
+        width:100%;
+        height:100vh;
+        background:linear-gradient(rgba(2,2,2,0.5),rgba(0,0,0,0.8)),url(hero-bg.jpg);
+        background-position:center;
+        background-size:cover;
+    }
+    .nav_bar{
+        margin:3px;
+        padding:3px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        
+    }
+    .nav_bar::hover{
+        background-position:fixed;
+        background-color:black
+    }
+    .nav_bar ul li{
+        list-style:none;
+        display:inline-block;
+        padding:2px;
+        position:relative;
+    }
+    .nav_bar ul li a{
+        text-decoration:none;
+        font-size:15px;
+        color:white;
+    }
+    .nav_bar ul li::after{
+        content: '';
+        height: 2px;
+        width: 0;
+        background: red;
+        position: absolute;
+        left: 10%;
+        bottom: -1px;
+        transition: 0.5s;
+    }
+    .nav_bar ul li:hover:after{
+        width: 80%;
+     }
+    .logo{
+        padding:10px;
+        font-size:15px;
+        color:white;
+    } 
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color:white;
+    }
+    .content h1 {
+        font-size: 30px;
+        margin-top: 80px;
+    
+    }
+    .welcome{
+        margin-top: 100px;
+        border-radius: 80px;
+    }
+    .content p {
+        margin: 20px auto;
+        font-size: 20px;
+        font-weight: 80;
+        line-height: 25px;
+    }
+    .content button a{
+        text-decoration: none;
+    }
+    button{
+    width: 200px;
+    padding: 15px 0;
+    top: 7px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid white;
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    overflow: hidden;
+    position:relative;
+    }
+    .btn2 a{
+        text-decoration:none;
+        color:white;
+    }
+    .btn1{
+        width: 30%;
+        color: white;
+        box-sizing: border-box;
+        background: linear-gradient(rgba(255, 255, 255, 0.514)6,rgba(0,0,0,0.8)),white;
+    }
+    .wel{
+        color: white;
+    }
+    .btn1{
+        color: white;
+        border-color: gray;
+    }
+    .btn2{
+    border-color: white;
+    border-radius: 80px;
+    padding: 1%;
+    }
+    .btn2:hover {
+    background-color:crimson;
+    border-color: crimson;
+    }
+}
+
+@media (min-width:768px){
+    .page_1{
+        width:100%;
+        height:100vh;
+        background:linear-gradient(rgba(2,2,2,0.5),rgba(0,0,0,0.8)),url(hero-bg.jpg);
+        background-position:center;
+        background-size:cover;
+    }
+    .nav_bar{
+        margin:10px;
+        padding:10px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        
+    }
+    .nav_bar::hover{
+        background-position:fixed;
+        background-color:black
+    }
+    .nav_bar ul li{
+        list-style:none;
+        display:inline-block;
+        padding:1px;
+        position:relative;
+    }
+    .nav_bar ul li a{
+        text-decoration:none;
+        font-size:20px;
+        color:white;
+    }
+    .nav_bar ul li::after{
+        content: '';
+        height: 2px;
+        width: 0;
+        background: red;
+        position: absolute;
+        left: 10%;
+        bottom: -1px;
+        transition: 0.5s;
+    }
+    .nav_bar ul li:hover:after{
+        width: 80%;
+     }
+    .logo{
+        padding:10px;
+        font-size:40px;
+        color:white;
+    }
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color:white;
+    }
+    .content h1 {
+        font-size: 50px;
+        margin-top: 80px;
+    
+    }
+    .welcome{
+        margin-top: 80px;
+        border-radius: 80px;
+    }
+    .content p {
+        margin: 20px auto;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: 25px;
+    }
+    .content button a{
+        text-decoration: none;
+    }
+    button{
+    width: 200px;
+    padding: 15px 0;
+    top: 50px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid white;
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    overflow: hidden;
+    position:relative;
+    }
+    .btn2 a{
+        text-decoration:none;
+        color:white;
+    }
+    .btn1{
+        width: 30%;
+        color: white;
+        box-sizing: border-box;
+        background: linear-gradient(rgba(255, 255, 255, 0.514),rgba(0,0,0,0.8)),white;
+    }
+    .wel{
+        color: white;
+    }
+    .btn1{
+        color: white;
+        border-color: gray;
+    }
+    .btn2{
+    border-color: white;
+    border-radius: 80px;
+    padding: 1%;
+    }
+    .btn2:hover {
+    background-color:crimson;
+    border-color: crimson;
+    }
+}
+@media (min-width:980px){
+    .page_1{
+        width:100%;
+        height:100vh;
+        background:linear-gradient(rgba(2,2,2,0.5),rgba(0,0,0,0.8)),url(hero-bg.jpg);
+        background-position:center;
+        background-size:cover;
+    }
+    .nav_bar{
+        margin:10px;
+        padding:5px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        
+    }
+    .nav_bar::hover{
+        background-position:fixed;
+        background-color:black
+    }
+    .nav_bar ul li{
+        list-style:none;
+        display:inline-block;
+        padding:8px;
+        position:relative;
+    }
+    .nav_bar ul li a{
+        text-decoration:none;
+        font-size:20px;
+        color:white;
+    }
+    .nav_bar ul li::after{
+        content: '';
+        height: 2px;
+        width: 0;
+        background: red;
+        position: absolute;
+        left: 10%;
+        bottom: -1px;
+        transition: 0.5s;
+    }
+    .nav_bar ul li:hover:after{
+        width: 80%;
+     }
+    .logo{
+        padding:10px;
+        font-size:40px;
+        color:white;
+    }
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color:white;
+    }
+    .content h1 {
+        font-size: 50px;
+        margin-top: 80px;
+    
+    }
+    .welcome{
+        margin-top: 80px;
+        border-radius: 80px;
+    }
+    .content p {
+        margin: 20px auto;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: 25px;
+    }
+    .content button a{
+        text-decoration: none;
+    }
+    button{
+    width: 200px;
+    padding: 15px 0;
+    top: 50px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid white;
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    overflow: hidden;
+    position:relative;
+    }
+    .btn2 a{
+        text-decoration:none;
+        color:white;
+    }
+    .btn1{
+        width: 30%;
+        color: white;
+        box-sizing: border-box;
+        background: linear-gradient(rgba(255, 255, 255, 0.514),rgba(0,0,0,0.8)),white;
+    }
+    .wel{
+        color: white;
+    }
+    .btn1{
+        color: white;
+        border-color: gray;
+    }
+    .btn2{
+    border-color: white;
+    border-radius: 80px;
+    padding: 1%;
+    }
+    .btn2:hover {
+    background-color:crimson;
+    border-color: crimson;
+    }
+}
+/* page2 */
+.page_2{
+    align-items:center;
+    padding: 0 75px
+    
+}
+.page2{
+    text-align: center;
+    padding-bottom: 25px;
+    margin:15px
+}
+.abt{
+    border-radius: 25px;
+    border-color: crimson;
+    background-color:white;
+    color: crimson;
+}
+.page2 h1{
+    margin-top:25px ;
+}
+.page2 h2{
+    margin-top: 15px;
+}
+.page2 p{
+    margin-top: 15px;
+}
+.page_for_2{
+    width: 100%;
+    height: 100vh;
+    
+}
+.page_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 140px;
+}
+.page_2 p{
+    margin: 15px;
+}
+.page_2 ul li{
+    margin: 10px;
+}
+p {
+    margin: 10px;
+}
+.btnabout{
+    border-radius: 25px;
+    border-color: crimson;
+    background-color:white;
+    color: crimson;
+}
+.btnabout:hover{
+    background-color: crimson;
+    color: antiquewhite;
+}
+.btnabout a{
+    text-decoration: none;
+}
+/* 567px for page2 */
+@media(min-width:567px){
+    .page2{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .abt{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+    .page2 h1{
+        margin-top:25px ;
+    }
+    .page2 h2{
+        margin-top: 15px;
+    }
+    .page2 p{
+        margin-top: 15px;
+    }
+    .page_for_2{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .page_2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 10px;
+    }
+    .page_2 p{
+        margin: 10px;
+    }
+    .page_2 ul li{
+        margin: 10px;
+    }
+    p {
+        margin: 10px;
+    }
+    .btnabout{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+    .btnabout:hover{
+        background-color: crimson;
+        color: antiquewhite;
+    }
+    .btnabout a{
+        text-decoration: none;
+    }
+}
+/* 768px for page2 */
+@media(min-width:768px){
+    .page2{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .abt{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+    .page2 h1{
+        margin-top:25px ;
+    }
+    .page2 h2{
+        margin-top: 15px;
+    }
+    .page2 p{
+        margin-top: 15px;
+    }
+    .page_for_2{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .page_2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 10px;
+    }
+    .page_2 p{
+        margin: 10px;
+    }
+    .page_2 ul li{
+        margin: 10px;
+    }
+    p {
+        margin: 10px;
+    }
+    .btnabout{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+    .btnabout:hover{
+        background-color: crimson;
+        color: antiquewhite;
+    }
+    .btnabout a{
+        text-decoration: none;
+    }
+}
+/* 980px for page2 */
+@media(min-width:980px){
+    .page2{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .abt{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+    .page2 h1{
+        margin-top:25px ;
+    }
+    .page2 h2{
+        margin-top: 15px;
+    }
+    .page2 p{
+        margin-top: 15px;
+    }
+    .page_for_2{
+        width: 100%;
+        height: 80vh;
+        
+    }
+    .page_2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 10px;
+    }
+    .page_2 p{
+        margin: 10px;
+    }
+    .page_2 ul li{
+        margin: 10px;
+    }
+    p {
+        margin: 10px;
+    }
+    .btnabout{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+    .btnabout:hover{
+        background-color: crimson;
+        color: antiquewhite;
+    }
+    .btnabout a{
+        text-decoration: none;
+    }
+}
+.page_for_3{
+    width: 100%;
+    height: 100vh;
+}
+.ser{
+    border-radius: 25px;
+    border-color: crimson;
+    background-color:white;
+    color: crimson;
+}
+.page_3{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.page_3 h2{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.page_3 p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.div4{
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+.div4 i{
+    font-size: 40px;
+    color: brown;
+}
+.div8 i{
+    font-size:20px;
+    color: blue;
+}
+.div12 i{
+    font-size:20px;
+    color: blue;
+}
+.div16 i{
+    font-size:20px;
+    color: blue;
+}
+.box1{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 25vh;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+}
+.box1:hover{
+    background-color: crimson;
+    color:white;
+}
+.box2{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 25vh;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+}
+.box2:hover{
+    background-color: crimson;
+    color:white;
+}
+.box3{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 25vh;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+}
+.box3:hover{
+    background-color: crimson;
+    color:white;
+}
+.box4{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 25vh;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+}
+.box4:hover{
+    background-color: crimson;
+    color:white;
+}
+.div8{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+.box5{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 8vh;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+    margin-top:  4%;
+}
+.box5:hover{
+color: crimson;
+}
+.box6{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 8vh;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+    margin-top:  4%;
+}
+.box6:hover{
+color: crimson;
+}
+.box7{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 8vh;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+    margin-top:  4%;
+}
+.box7:hover{
+color: crimson;
+}
+.box8{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 8vh;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+    margin-top:  4%;
+}
+.box8:hover{
+color: crimson;
+}
+.div12{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+.box9{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 8vh;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+    margin-top:  2%;
+}
+.box9:hover{
+    color: crimson;
+    }
+    .box9{
+    background-color: whitesmoke;
+    width: 20%;
+    height: 8vh;
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+    margin-top:  2%;
+}
+.box9:hover{
+    color: crimson;
+    }
+    .box10{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  2%;
+    }
+    .box10:hover{
+        color: crimson;
+        }
+        .box11{
+            background-color: whitesmoke;
+            width: 20%;
+            height: 8vh;
+            float: left;
+            text-align: center;
+            padding-top: 3%;
+            margin-top:  2%;
+        }
+        .box11:hover{
+            color: crimson;
+            }
+            .box12{
+                background-color: whitesmoke;
+                width: 20%;
+                height: 8vh;
+                float: left;
+                text-align: center;
+                padding-top: 3%;
+                margin-top:  2%;
+            }
+            .box12:hover{
+                color: crimson;
+                }
+                .div16{
+                    display: flex;
+                    margin-top: 50px;
+                    justify-content: space-between;
+                    margin: 0 10%;
+                }
+                .box13{
+                    background-color: whitesmoke;
+                    width: 20%;
+                    height: 8vh;
+                    float: left;
+                    text-align: center;
+                    padding-top: 3%;
+                    margin-top:  2%;
+                }
+                .box13:hover{
+                    color: crimson;
+                    }
+                    .box14{
+                    background-color: whitesmoke;
+                    width: 20%;
+                    height: 8vh;
+                    float: left;
+                    text-align: center;
+                    padding-top: 3%;
+                    margin-top:  2%;
+                }
+                .box14:hover{
+                    color: crimson;
+                    }
+                    .box15{
+                        background-color: whitesmoke;
+                        width: 20%;
+                        height: 8vh;
+                        float: left;
+                        text-align: center;
+                        padding-top: 3%;
+                        margin-top:  2%;
+                    }
+                    .box15:hover{
+                        color: crimson;
+                        }
+                        .box16{
+                            background-color: whitesmoke;
+                            width: 20%;
+                            height: 8vh;
+                            float: left;
+                            text-align: center;
+                            padding-top: 3%;
+                            margin-top:  2%;
+                        }
+                        .box16:hover{
+                            color: crimson;
+                        }
+ 
+/* 567px for page3 */
+@media(min-width:567px){
+    .page_for_3{
+        width: 100%;
+        height: 100vh;
+    }
+    .page_3{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .page_3 h2{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    
+    .page_3 p{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .div4{
+        display: flex;
+        text-align: center;
+        margin-top: 25px;
+        justify-content: space-between;
+        margin: 0 10%;
+        padding-bottom: 55px;
+
+    }
+    .div4 i{
+        font-size: 40px;
+        color: brown;
+    }
+    .div8 i{
+        font-size:20px;
+        color: blue;
+    }
+    .div12 i{
+        font-size:20px;
+        color: blue;
+    }
+    .div16 i{
+        font-size:20px;
+        color: blue;
+    }
+    .box1{
+        background-color: whitesmoke;
+        width: 22%;
+        height: 45vh;
+        overflow: hidden;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        
+    }
+    .box1:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .box2{
+        background-color: whitesmoke;
+        width: 24%;
+        height: 45vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .box2:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .box3{
+        background-color: whitesmoke;
+        width: 22%;
+        height: 45vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .box3:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .box4{
+        background-color: whitesmoke;
+        width: 22%;
+        height: 45vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .box4:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .div8{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        margin: 0 10%;
+    }
+    .box5{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box5:hover{
+    color: crimson;
+    }
+    .box6{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box6:hover{
+    color: crimson;
+    }
+    .box7{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box7:hover{
+    color: crimson;
+    }
+    .box8{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box8:hover{
+    color: crimson;
+    }
+    .div12{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        margin: 0 10%;
+    }
+    .box9{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  2%;
+    }
+    .box9:hover{
+        color: crimson;
+        }
+        .box9{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  2%;
+    }
+    .box9:hover{
+        color: crimson;
+        }
+        .box10{
+            background-color: whitesmoke;
+            width: 20%;
+            height: 8vh;
+            float: left;
+            text-align: center;
+            padding-top: 3%;
+            margin-top:  2%;
+        }
+        .box10:hover{
+            color: crimson;
+            }
+            .box11{
+                background-color: whitesmoke;
+                width: 20%;
+                height: 8vh;
+                float: left;
+                text-align: center;
+                padding-top: 3%;
+                margin-top:  2%;
+            }
+            .box11:hover{
+                color: crimson;
+                }
+                .box12{
+                    background-color: whitesmoke;
+                    width: 20%;
+                    height: 8vh;
+                    float: left;
+                    text-align: center;
+                    padding-top: 3%;
+                    margin-top:  2%;
+                }
+                .box12:hover{
+                    color: crimson;
+                    }
+                    .div16{
+                        display: flex;
+                        margin-top: 50px;
+                        justify-content: space-between;
+                        margin: 0 10%;
+                    }
+                    .box13{
+                        background-color: whitesmoke;
+                        width: 20%;
+                        height: 8vh;
+                        float: left;
+                        text-align: center;
+                        padding-top: 3%;
+                        margin-top:  2%;
+                    }
+                    .box13:hover{
+                        color: crimson;
+                        }
+                        .box14{
+                        background-color: whitesmoke;
+                        width: 20%;
+                        height: 8vh;
+                        float: left;
+                        text-align: center;
+                        padding-top: 3%;
+                        margin-top:  2%;
+                    }
+                    .box14:hover{
+                        color: crimson;
+                        }
+                        .box15{
+                            background-color: whitesmoke;
+                            width: 20%;
+                            height: 8vh;
+                            float: left;
+                            text-align: center;
+                            padding-top: 3%;
+                            margin-top:  2%;
+                        }
+                        .box15:hover{
+                            color: crimson;
+                            }
+                            .box16{
+                                background-color: whitesmoke;
+                                width: 20%;
+                                height: 8vh;
+                                float: left;
+                                text-align: center;
+                                padding-top: 3%;
+                                margin-top:  2%;
+                            }
+                            .box16:hover{
+                                color: crimson;
+                            }
+  
+}
+/* 768px for page3 */
+@media(min-width:768px){
+    .page_for_3{
+        width: 100%;
+        height: 100vh;
+        padding:50px;
+    }
+    .page_3{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .page_3 h2{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    
+    .page_3 p{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .div4{
+        display: flex;
+        text-align: center;
+        margin-top: 25px;
+        justify-content: space-between;
+        margin: 0 10%;
+        padding-bottom: 55px;
+
+    }
+    .div4 i{
+        font-size: 40px;
+        color: brown;
+    }
+    .div8 i{
+        font-size:20px;
+        color: blue;
+    }
+    .div12 i{
+        font-size:20px;
+        color: blue;
+    }
+    .div16 i{
+        font-size:20px;
+        color: blue;
+    }
+    .box1{
+        background-color: whitesmoke;
+        width: 22%;
+        height: 45vh;
+        overflow: hidden;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        
+    }
+    .box1:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .box2{
+        background-color: whitesmoke;
+        width: 24%;
+        height: 45vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .box2:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .box3{
+        background-color: whitesmoke;
+        width: 22%;
+        height: 45vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .box3:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .box4{
+        background-color: whitesmoke;
+        width: 22%;
+        height: 45vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .box4:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .div8{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        margin: 0 10%;
+    }
+    .box5{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box5:hover{
+    color: crimson;
+    }
+    .box6{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box6:hover{
+    color: crimson;
+    }
+    .box7{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box7:hover{
+    color: crimson;
+    }
+    .box8{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box8:hover{
+    color: crimson;
+    }
+    .div12{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        margin: 0 10%;
+    }
+    .box9{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  2%;
+    }
+    .box9:hover{
+        color: crimson;
+        }
+        .box9{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  2%;
+    }
+    .box9:hover{
+        color: crimson;
+        }
+        .box10{
+            background-color: whitesmoke;
+            width: 20%;
+            height: 8vh;
+            float: left;
+            text-align: center;
+            padding-top: 3%;
+            margin-top:  2%;
+        }
+        .box10:hover{
+            color: crimson;
+            }
+            .box11{
+                background-color: whitesmoke;
+                width: 20%;
+                height: 8vh;
+                float: left;
+                text-align: center;
+                padding-top: 3%;
+                margin-top:  2%;
+            }
+            .box11:hover{
+                color: crimson;
+                }
+                .box12{
+                    background-color: whitesmoke;
+                    width: 20%;
+                    height: 8vh;
+                    float: left;
+                    text-align: center;
+                    padding-top: 3%;
+                    margin-top:  2%;
+                }
+                .box12:hover{
+                    color: crimson;
+                    }
+                    .div16{
+                        display: flex;
+                        margin-top: 50px;
+                        justify-content: space-between;
+                        margin: 0 10%;
+                    }
+                    .box13{
+                        background-color: whitesmoke;
+                        width: 20%;
+                        height: 8vh;
+                        float: left;
+                        text-align: center;
+                        padding-top: 3%;
+                        margin-top:  2%;
+                    }
+                    .box13:hover{
+                        color: crimson;
+                        }
+                        .box14{
+                        background-color: whitesmoke;
+                        width: 20%;
+                        height: 8vh;
+                        float: left;
+                        text-align: center;
+                        padding-top: 3%;
+                        margin-top:  2%;
+                    }
+                    .box14:hover{
+                        color: crimson;
+                        }
+                        .box15{
+                            background-color: whitesmoke;
+                            width: 20%;
+                            height: 8vh;
+                            float: left;
+                            text-align: center;
+                            padding-top: 3%;
+                            margin-top:  2%;
+                        }
+                        .box15:hover{
+                            color: crimson;
+                            }
+                            .box16{
+                                background-color: whitesmoke;
+                                width: 20%;
+                                height: 8vh;
+                                float: left;
+                                text-align: center;
+                                padding-top: 3%;
+                                margin-top:  2%;
+                            }
+                            .box16:hover{
+                                color: crimson;
+                            } 
+}
+/* 980px for page3 */
+@media(min-width:980px){
+   
+    .page_for_3{
+        width: 100%;
+        height: 100vh;
+    }
+    .page_3{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .page_3 h2{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    
+    .page_3 p{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .div4{
+        display: flex;
+        text-align: center;
+        margin-top: 25px;
+        justify-content: space-between;
+        margin: 0 10%;
+        padding-bottom: 55px;
+
+    }
+    .div4 i{
+        font-size: 40px;
+        color: brown;
+    }
+    .div8 i{
+        font-size:20px;
+        color: blue;
+    }
+    .div12 i{
+        font-size:20px;
+        color: blue;
+    }
+    .div16 i{
+        font-size:20px;
+        color: blue;
+    }
+    .box1{
+        background-color: whitesmoke;
+        width: 22%;
+        height: 40vh;
+        overflow: hidden;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        
+    }
+    .box1:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .box2{
+        background-color: whitesmoke;
+        width: 24%;
+        height: 40vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .box2:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .box3{
+        background-color: whitesmoke;
+        width: 22%;
+        height: 40vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .box3:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .box4{
+        background-color: whitesmoke;
+        width: 22%;
+        height: 40vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+    }
+    .box4:hover{
+        background-color: crimson;
+        color:white;
+    }
+    .div8{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        margin: 0 10%;
+    }
+    .box5{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box5:hover{
+    color: crimson;
+    }
+    .box6{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box6:hover{
+    color: crimson;
+    }
+    .box7{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box7:hover{
+    color: crimson;
+    }
+    .box8{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  4%;
+    }
+    .box8:hover{
+    color: crimson;
+    }
+    .div12{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        margin: 0 10%;
+    }
+    .box9{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  2%;
+    }
+    .box9:hover{
+        color: crimson;
+        }
+        .box9{
+        background-color: whitesmoke;
+        width: 20%;
+        height: 8vh;
+        float: left;
+        text-align: center;
+        padding-top: 3%;
+        margin-top:  2%;
+    }
+    .box9:hover{
+        color: crimson;
+        }
+        .box10{
+            background-color: whitesmoke;
+            width: 20%;
+            height: 8vh;
+            float: left;
+            text-align: center;
+            padding-top: 3%;
+            margin-top:  2%;
+        }
+        .box10:hover{
+            color: crimson;
+            }
+            .box11{
+                background-color: whitesmoke;
+                width: 20%;
+                height: 8vh;
+                float: left;
+                text-align: center;
+                padding-top: 3%;
+                margin-top:  2%;
+            }
+            .box11:hover{
+                color: crimson;
+                }
+                .box12{
+                    background-color: whitesmoke;
+                    width: 20%;
+                    height: 8vh;
+                    float: left;
+                    text-align: center;
+                    padding-top: 3%;
+                    margin-top:  2%;
+                }
+                .box12:hover{
+                    color: crimson;
+                    }
+                    .div16{
+                        display: flex;
+                        margin-top: 50px;
+                        justify-content: space-between;
+                        margin: 0 10%;
+                    }
+                    .box13{
+                        background-color: whitesmoke;
+                        width: 20%;
+                        height: 8vh;
+                        float: left;
+                        text-align: center;
+                        padding-top: 3%;
+                        margin-top:  2%;
+                    }
+                    .box13:hover{
+                        color: crimson;
+                        }
+                        .box14{
+                        background-color: whitesmoke;
+                        width: 20%;
+                        height: 8vh;
+                        float: left;
+                        text-align: center;
+                        padding-top: 3%;
+                        margin-top:  2%;
+                    }
+                    .box14:hover{
+                        color: crimson;
+                        }
+                        .box15{
+                            background-color: whitesmoke;
+                            width: 20%;
+                            height: 8vh;
+                            float: left;
+                            text-align: center;
+                            padding-top: 3%;
+                            margin-top:  2%;
+                        }
+                        .box15:hover{
+                            color: crimson;
+                            }
+                            .box16{
+                                background-color: whitesmoke;
+                                width: 20%;
+                                height: 8vh;
+                                float: left;
+                                text-align: center;
+                                padding-top: 3%;
+                                margin-top:  2%;
+                            }
+                            .box16:hover{
+                                color: crimson;
+                            }   
+}
+.page_for_4{
+    width: 100%;
+    height: 50%;
+    margin: 25px;
+    margin-top: 10%;
+    background: linear-gradient(rgba(2,2,2,0.5),rgba(0,0,0,0.8)),url(cta-bg.jpg);
+}  
+.page4{
+    text-align: center;
+    margin: 25px;
+    margin-top: 10%;
+    color: antiquewhite;
+    padding: 3%;
+}     
+.btn4{
+    color: white;
+    background-color: white;
+} 
+.btn4:hover{
+    background-color: crimson;
+    color: white;
+} 
+.btn4 a{
+    text-decoration: none;
+}  
+.page_for_5{
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+}      
+.page5{
+    text-align: center;
+    margin: 25px;
+    padding: 3%;
+}    
+.port{
+    border-radius: 25px;
+    border-color: crimson;
+    background-color:white;
+    color: crimson;
+}
+ .page5lists a{
+    text-decoration: none;
+}
+.page5lists a{
+    border-radius: 10px;
+    background-color:whitesmoke;
+    color: crimson;
+    padding: 1%;
+    margin: 10px;
+    margin-top: 10px;
+
+}
+.page5lists a:hover{
+    background-color: crimson;
+    color: white;
+}
+.page5lists{
+    text-align: center;
+}
+.images{
+    margin-top: 10px;
+    padding: 2%;
+    margin: 25px;
+}
+.images{
+    background-color: white;
+}
+.images:hover{
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+/* 567px for page5 */
+@media(min-width:567px){
+    .page_for_5{
+        width: 100%;
+        height: 100%;
+        margin: 50px;
+    } 
+    .page5{
+        text-align: center;
+        margin: 25px;
+        padding: 3%;
+    }    
+    .port{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+     .page5lists a{
+        text-decoration: none;
+    }
+    .page5lists a{
+        border-radius: 10px;
+        background-color:whitesmoke;
+        color: crimson;
+        padding: 1%;
+        margin: 10px;
+        margin-top: 10px;
+    
+    }
+    .page5lists a:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .page5lists{
+        text-align: center;
+    }
+    .images{
+        margin-top: 10px;
+        padding: 2%;
+        margin: 25px;
+    }
+    .images{
+        background-color: white;
+    }
+    .images:hover{
+        background-color: whitesmoke;
+        border-radius: 30px;
+    }    
+}
+/* 768px for page5 */
+@media(min-width:768px){
+    .page_for_5{
+        width: 100%;
+        height: 100%;
+        margin: 50px;
+    } 
+    .page5{
+        text-align: center;
+        margin: 25px;
+        padding: 3%;
+    }    
+    .port{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+     .page5lists a{
+        text-decoration: none;
+    }
+    .page5lists a{
+        border-radius: 10px;
+        background-color:whitesmoke;
+        color: crimson;
+        padding: 1%;
+        margin: 10px;
+        margin-top: 10px;
+    
+    }
+    .page5lists a:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .page5lists{
+        text-align: center;
+    }
+    .images{
+        margin-top: 10px;
+        padding: 2%;
+        margin: 25px;
+    }
+    .images{
+        background-color: white;
+    }
+    .images:hover{
+        background-color: whitesmoke;
+        border-radius: 30px;
+    }    
+}
+/* 980px for page5 */
+@media(min-width:980px){
+    .page_for_5{
+        width: 100%;
+        height: 100%;
+        margin: 50px;
+    } 
+    .page5{
+        text-align: center;
+        margin: 25px;
+        padding: 3%;
+    }    
+    .port{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+     .page5lists a{
+        text-decoration: none;
+    }
+    .page5lists a{
+        border-radius: 10px;
+        background-color:whitesmoke;
+        color: crimson;
+        padding: 1%;
+        margin: 10px;
+        margin-top: 10px;
+    
+    }
+    .page5lists a:hover{
+        background-color: crimson;
+        color: white;
+    }
+    .page5lists{
+        text-align: center;
+    }
+    .images{
+        margin-top: 10px;
+        padding: 2%;
+        margin: 25px;
+    }
+    .images{
+        background-color: white;
+    }
+    .images:hover{
+        background-color: whitesmoke;
+        border-radius: 30px;
+    }    
+}
+.page_6{
+    height:100%
+}
+.page6{
+    text-align: center;
+    padding: 3%;
+    margin: 25px;
+}
+.but{
+    color: crimson;
+    background-color: white;
+}
+.but:hover{
+    color: white;
+    background-color: brown;
+}
+.precing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bb1{
+    text-align: center;
+    width: 20%;
+    height: 30vh;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 3%;
+}
+.bb2{
+    text-align: center;
+    width: 20%;
+    height: 30vh;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 3%;
+}
+.bb3{
+    text-align: center;
+    width: 20%;
+    height: 30vh;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 3%;
+}
+.pracing{
+    border-radius: 25px;
+    border-color: crimson;
+    background-color:white;
+    color: crimson;
+}
+/* 567px for page6 */
+@media(min-width:567px){
+    .page_6{
+        height:100%
+    }
+    .page6{
+        text-align: center;
+        padding: 3%;
+        margin: 25px;
+    }
+    .but{
+        width:30px
+        color: crimson;
+        background-color: antiquewhite;
+    }
+    .but:hover{
+        color: white;
+        background-color: brown;
+    }
+    .precing{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap:wrap;
+    }
+    .bb1{
+        text-align: center;
+        width: 20%;
+        height: 30vh;
+        border-radius: 25px;
+        background-color: antiquewhite;
+        padding: 3%;
+        
+        
+    }
+    .bb2{
+        text-align: center;
+        width: 20%;
+        height: 30vh;
+        border-radius: 25px;
+        background-color: antiquewhite;
+        padding: 3%;
+    }
+    .bb3{
+        text-align: center;
+        width: 20%;
+        height: 30vh;
+        border-radius: 25px;
+        background-color: antiquewhite;
+        padding: 3%;
+    }
+}
+.page7{
+    text-align: center;
+    border-radius: solid gray;
+    margin-top: 20px;
+    padding: 80px;
+    margin: 3%;
+    list-style: none;
+    }
+    .faq{
+        border-radius: 25px;
+    border-color: crimson;
+    background-color:white;
+    color: crimson;
+    }
+    .page8{
+        text-align: center;
+        border-radius: solid gray;
+        margin-top: 20px;
+        padding: 3%;
+        margin: 3
+    }
+    .photos{
+        display: flex;
+        justify-content: space-between;
+        padding: 3%;
+        border-radius: 20%;
+    }
+    .ph1{
+        border-radius: 10px;
+        background-color: antiquewhite;
+    }
+    .ph1:hover{
+        background-color: crimson;
+    }
+    h2{
+        border-radius: 25px;
+        border-color: crimson;
+        background-color:white;
+        color: crimson;
+    }
+    @media(min-width:567px){
+        .page8{
+            text-align: center;
+            border-radius: solid gray;
+            margin-top: 20px;
+            padding: 20px;
+            margin: 3px;
+        }
+        .photos{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            flex-wrap:wrap;
+            border-radius: 20%;
+        }
+        .ph1{
+            border-radius: 10px;
+            background-color: antiquewhite;
+        
+        }
+        .ph1:hover{
+            background-color: crimson;
+        }
+    }
+    @media(min-width:768){
+        .page8{
+            text-align: center;
+            border-radius: solid gray;
+            margin-top: 20px;
+            padding: 20px;
+            margin: 30px;
+        }
+        .photos{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            margin: 30px;
+            border-radius: 20%;
+        }
+        .ph1{
+            border-radius: 10px;
+            background-color: antiquewhite;
+        
+        }
+        .ph1:hover{
+            background-color: crimson;
+        }
+    }
+    .page9{
+        text-align: center;
+        padding: 3%;
+        margin-top: 25px;
+    }
+    iframe{
+        width: 90%;
+    }
+    h2{
+        color: crimson;
+    }
+    strong{
+        color: crimson;
+    }
+    .page10{
+        margin-top: 25px;
+        display:flex;
+        padding-left: 2%;
+    }
+    .gap{
+        padding:2% ;
+        margin: 0 20px;
+        font-size: 30px;
+    }
+    .page10 a{
+        text-decoration: none;
+    }
+    .click{
+        border-radius:25px;
+        background-color: brown;
+        align-items: center;
+        color: white;
+    }
+    .click a{
+        text-decoration: none;
+        color: white;
+    }
+    @media(min-width:567px){
+        .page10{
+            margin-top: 25px;
+            display:flex;
+            padding-left: 2%;
+        }
+        .gap{
+            padding:2% ;
+            margin: 0 20px;
+            font-size: 10px;
+        }
+        .page10 a{
+            text-decoration: none;
+        }
+        .click{
+            border-radius:25px;
+            background-color: brown;
+            align-items: center;
+            color: white;
+        }
+        .click a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    @media(min-width:760px){
+        .page10{
+            margin-top: 25px;
+            display:flex;
+            padding-left: 2%;
+        }
+        .gap{
+            padding:2% ;
+            margin: 0 20px;
+            font-size: 30px;
+        }
+        .page10 a{
+            text-decoration: none;
+        }
+        .click{
+            border-radius:25px;
+            background-color: brown;
+            align-items: center;
+            color: white;
+        }
+        .click a{
+            text-decoration: none;
+            color: white;
+        }
+    }
